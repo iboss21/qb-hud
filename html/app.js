@@ -152,12 +152,12 @@ const playerHud = {
       } else {
         this.showArmor = true;
       }
-      if (data.hunger >= 100) {
+      if (data.hunger >= 500) {
         this.showHunger = false;
       } else {
         this.showHunger = true;
       }
-      if (data.thirst >= 100) {
+      if (data.thirst >= 500) {
         this.showThirst = false;
       } else {
         this.showThirst = true;
